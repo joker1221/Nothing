@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        .hb {
+            padding: 35px;
+            text-align: left;
+            background-image: linear-gradient(to right, black, black, gray, white)
+        }
+
+        body {
+            font-family: "Times New Roman", Times, serif;
+            margin: 0;
+            color: Black;
+        }
+
+        .background {
+            background-image: url(BackGround.png);
+            background-color: #cccccc;
+            height: 100%;
+            width: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .footer {
+            padding: 20px;
+            background-image: linear-gradient(to right, gray, lightgray, gray)
+        }
+
+        input {
+            width: 400px;
+            height: 40px;
+            border-radius: 5px
+        }
+
+        select {
+            width: 406px;
+            height: 40px;
+            border-radius: 5px
+        }
+
+        .button {
+            padding: 15px 25px;
+            font-size: 24px;
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            color: #fff;
+            background-color: black;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+        }
+
+        .button:hover {
+            background-image: linear-gradient(to right, black, lightgray)
+        }
+
+        .button:active {
+            background-color: gray;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background">
+        <div class="hb">
+            <img src="logo1.png" alt="logo" style="width: 250px;height: 140px;">
+            <button class="button" style="position: absolute; right: 20px; top: 60px">Login</button>
+            <button class="button" style="position: absolute; right: 150px; top: 60px">Sign up</button>
+        </div>
+        <div style="margin-left: 5%">
+            <form action="Interface.html" method="post">
+                <h1 style="">Sign Up</h1>
+                <input type="text" name="CName" placeholder="Name">
+                <br><br><br>
+                <input type="text" name="CUsername" placeholder="Username">
+                <br><br><br>
+                <input type="password" name="CPassword" placeholder="Password">
+                <br><br><br>
+                <input type="text" name="CAddress" placeholder="Address">
+                <br><br><br>
+                <label for="CCity"> City: </label>
+                <br>
+                <select type="text" name="CCity" placeholder="coustmore city">
+                    <option value="Dammam"> Dammam </option>
+                    <option value="Dammam"> Jeddah </option>
+                    <option value="Dammam"> Riyadh </option>
+                    <option value="Dammam"> Jobail </option>
+                    <option value="Dammam"> Baqieq </option>
+                </select>
+                <br><br>
+                <label for="CEmail"> Email: </label>
+                <br>
+                <input type="text" name="CEmail" placeholder="User@mail.com">
+                <br><br>
+                <label for="CEmail"> Phone Number: </label>
+                <br>
+                <input type="text" name="CTelephone" placeholder="05########">
+                <br><br>
+                <button type="submit" name="Submit" class="button"> Sign Up </button>
+                <br><br>
+            </form>
+        </div>
+        <div class="footer" style="float:left; width: 100%;">
+            <h1>Contact Us: </h1>
+            <div>
+                <a href="https://twitter.com/%22%3E"><img src="tw.png" alt="twitter" style="width:40px;height:40px;"></a>
+                <b>@T_A_P</b>
+                <br>
+                <a href="https://www.instagram.com/%22%3E"><img src="ins.png" alt="twitter" style="width:40px; height:40px;"></a>
+                <b>@T_A_P</b>
+            </div>
+        </div>
+    </div>
+</body></html>
